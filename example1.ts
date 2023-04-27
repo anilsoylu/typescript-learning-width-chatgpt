@@ -1,2 +1,5 @@
-let message: string = "Hello, World!"
-console.log(message)
+function greet(name: string) {
+  console.log(`Hello, ${name}!`)
+}
+
+greet("John")
